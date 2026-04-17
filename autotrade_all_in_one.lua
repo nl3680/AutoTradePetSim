@@ -20,7 +20,8 @@
     - You can inject config via _G.AutoTradeSettings before loadstring(...)
 ]]
 
-local globalEnv = (type(getgenv) == "function" and getgenv()) or _G
+local injectedEnv = type(getgenv) == "function" and getgenv() or nil
+local globalEnv = injectedEnv or _G
 local REMOTE_CONFIG_KEYS = {
     "AutoTradeSettings",
     "AUTOTRADE_REMOTE_CONFIG",
@@ -57,7 +58,12 @@ end
 
 local function getInjectedConfig()
     for _, key in ipairs(REMOTE_CONFIG_KEYS) do
-        local value = rawget(globalEnv, key)
+        local value = type(injectedEnv) == "table" and rawget(injectedEnv, key) or nil
+        if type(value) == "table" then
+            return value, key
+        end
+
+        value = rawget(_G, key)
         if type(value) == "table" then
             return value, key
         end
