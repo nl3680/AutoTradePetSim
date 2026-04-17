@@ -1,0 +1,233 @@
+class=Booth | name=Default | uid=6faea6194cbe48f797adf4b31a2e1426 | amount=1 | path=Save.Inventory.Booth
+class=Booth | name=Dragon | uid=7e32529641e04c9d9fa1d86ae76dcb65 | amount=1 | path=Save.Inventory.Booth
+class=Booth | name=Egg | uid=1de9494fb6514bdfa24efefe135d8214 | amount=1 | path=Save.Inventory.Booth
+class=Box | name=Small | uid=90dc9074de3f4a8cb78b084d794e0c64 | amount=8 | path=Save.Inventory.Box
+class=Charm | name=Agility | uid=40260894f76648a0bfd04e1e662825d3 | amount=2 | path=Save.Inventory.Charm
+class=Charm | name=Bonus | uid=b346b6440fc643989c42d8ba4d92c999 | amount=1 | path=Save.Inventory.Charm
+class=Currency | name=BackroomsCoins | uid=0112ad50fce54034b1f794fa754aba51 | amount=181506 | path=Save.Inventory.Currency
+class=Currency | name=CloverCoins | uid=686e5736a28d4027b73227c409d7f882 | amount=28699 | path=Save.Inventory.Currency
+class=Currency | name=Coins | uid=bf57434290a24596abaaef6191bb98fb | amount=7.416674914391553e+36 | path=Save.Inventory.Currency
+class=Currency | name=Diamonds | uid=dbf308269b9e47298e53d91c76480926 | amount=797237 | path=Save.Inventory.Currency
+class=Currency | name=FantasyCoins | uid=7e2fda3908f84bf5b20a6c0e6f36c86b | amount=2547971298811381000 | path=Save.Inventory.Currency
+class=Currency | name=Fishing | uid=6a7c83936dc64bad9fefd9c21d3fd30b | amount=231774 | path=Save.Inventory.Currency
+class=Currency | name=GoodVsEvilCoins | uid=f1b27349b9a746f9b68ec5921da8f965 | amount=100 | path=Save.Inventory.Currency
+class=Currency | name=LuckyCoins | uid=05155c4e16ec428ea9fa3ae6ec096261 | amount=279144972187 | path=Save.Inventory.Currency
+class=Currency | name=TechCoins | uid=18aeefcc3b9543d8a9c02f50f9b47ab2 | amount=1.3808635280430242e+37 | path=Save.Inventory.Currency
+class=Currency | name=VoidCoins | uid=979e2c3440344da99248a0712fca0c39 | amount=1918150673023824 | path=Save.Inventory.Currency
+class=Enchant | name=Blast | uid=b3abf3c93a554a95a6aee04035965fed | amount=4 | path=Save.Inventory.Enchant
+class=Enchant | name=Chest Breaker | uid=9605fa52f48445898d869f312e0b975f | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Coins | uid=0ad1c6d02ba2456e9e3497cc14e485bb | amount=392 | path=Save.Inventory.Enchant
+class=Enchant | name=Coins | uid=59843ea72d1d45b4adc69e58500f1ca2 | amount=2 | path=Save.Inventory.Enchant
+class=Enchant | name=Coins | uid=918d5886b2284a8d99b13135e2173bdb | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Coins | uid=98dc007237044743baafc464113ecb65 | amount=29 | path=Save.Inventory.Enchant
+class=Enchant | name=Coins | uid=a9e4d1ff86e44f9790bbbf1a9b1da0ac | amount=58 | path=Save.Inventory.Enchant
+class=Enchant | name=Coins | uid=bbceb58c182d41a99f53cdef78dcace9 | amount=3 | path=Save.Inventory.Enchant
+class=Enchant | name=Coins | uid=c1fb6242dbc846119f061dc1cc3b091b | amount=297 | path=Save.Inventory.Enchant
+class=Enchant | name=Coins | uid=dadf40c5adb247b1bf244e97888eb919 | amount=285 | path=Save.Inventory.Enchant
+class=Enchant | name=Coins | uid=fa48dc0afde34bb485c0dc7ba98501e1 | amount=259 | path=Save.Inventory.Enchant
+class=Enchant | name=Criticals | uid=22f880596f6545cd847fb0b2512d0e53 | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Criticals | uid=23870c650d524275b5c0b460d5152096 | amount=2 | path=Save.Inventory.Enchant
+class=Enchant | name=Criticals | uid=366338a2b42b48588c9a57ffffd35628 | amount=13 | path=Save.Inventory.Enchant
+class=Enchant | name=Criticals | uid=36b3e925cfcd43aa929ad8a12fed9e7c | amount=113 | path=Save.Inventory.Enchant
+class=Enchant | name=Criticals | uid=3da8333636c448e4b24bde77bbbae5db | amount=69 | path=Save.Inventory.Enchant
+class=Enchant | name=Criticals | uid=73338c4d2cb344e49eb76c01dcf279a6 | amount=195 | path=Save.Inventory.Enchant
+class=Enchant | name=Criticals | uid=b2839a1d0309406f9f2f7959bffda711 | amount=3 | path=Save.Inventory.Enchant
+class=Enchant | name=Criticals | uid=c76c85185ff54cc1b2de9b58fad3c3c9 | amount=155 | path=Save.Inventory.Enchant
+class=Enchant | name=Criticals | uid=dd6f6a7e448f4f7cb3baa8f5326f8f89 | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Criticals | uid=f78cf5ca50204a8eb35a230e999245a0 | amount=198 | path=Save.Inventory.Enchant
+class=Enchant | name=Diamonds | uid=01b5e4a0c0644f43b85ad44a5e2bd77e | amount=4 | path=Save.Inventory.Enchant
+class=Enchant | name=Diamonds | uid=08995124ebe74536b498e73a09cd79d7 | amount=179 | path=Save.Inventory.Enchant
+class=Enchant | name=Diamonds | uid=360d59f7932b48469f6ff618afd9a9fe | amount=285 | path=Save.Inventory.Enchant
+class=Enchant | name=Diamonds | uid=5e13fa436d0840c2b278866975b8af30 | amount=28 | path=Save.Inventory.Enchant
+class=Enchant | name=Diamonds | uid=a26308c9caeb4c0abb19ad5e0e29e36d | amount=161 | path=Save.Inventory.Enchant
+class=Enchant | name=Diamonds | uid=e8b0f82cf7ff4f50ab45c8ade52276cd | amount=39 | path=Save.Inventory.Enchant
+class=Enchant | name=Diamonds | uid=fd2bb701b5ca479ca3ed2fdcb9698c96 | amount=199 | path=Save.Inventory.Enchant
+class=Enchant | name=Happy Pets | uid=b8f90b43b5dc4088af7e77e3596deb62 | amount=20 | path=Save.Inventory.Enchant
+class=Enchant | name=Huge Hunter | uid=4184368c9d09493f8f82b32fbe93c291 | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Large Taps | uid=4744f944035349678c6e05992985d99f | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Lightning | uid=9daaa734a7d0436d9a6a570d0666c2b5 | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Lucky Eggs | uid=0750471c99bd4d809fca1f088318ca86 | amount=545 | path=Save.Inventory.Enchant
+class=Enchant | name=Lucky Eggs | uid=1136528f78a747c3b5841c7eaf3ac78b | amount=3 | path=Save.Inventory.Enchant
+class=Enchant | name=Lucky Eggs | uid=16bcfe6da6c541eea7e6690579a5f729 | amount=52 | path=Save.Inventory.Enchant
+class=Enchant | name=Lucky Eggs | uid=259419128f6144c897f07badd0cc870c | amount=66 | path=Save.Inventory.Enchant
+class=Enchant | name=Lucky Eggs | uid=9025d4790d484d2eb6d88eb373ffe8c4 | amount=760 | path=Save.Inventory.Enchant
+class=Enchant | name=Lucky Eggs | uid=aba03d1ad5c448749eab48613cd2cf4a | amount=504 | path=Save.Inventory.Enchant
+class=Enchant | name=Lucky Eggs | uid=c7970b3fde3840189b7b3be8eee9bd73 | amount=213 | path=Save.Inventory.Enchant
+class=Enchant | name=Magnet | uid=68fe8af4e6ea46abbc09f9b108bcca53 | amount=2991 | path=Save.Inventory.Enchant
+class=Enchant | name=Magnet | uid=939dd685f2b14ab48f9f6d4237ef3106 | amount=783 | path=Save.Inventory.Enchant
+class=Enchant | name=Magnet | uid=e71f1f849f8c457da714e1a077d5589d | amount=1924 | path=Save.Inventory.Enchant
+class=Enchant | name=Shiny Hunter | uid=2bf4494620514623b326202321b08b07 | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Strong Pets | uid=52b5bb132010459ca7f9e00e95b0abf0 | amount=2 | path=Save.Inventory.Enchant
+class=Enchant | name=Strong Pets | uid=5eb017a4368d492ba48f2753609c3b28 | amount=16 | path=Save.Inventory.Enchant
+class=Enchant | name=Strong Pets | uid=6eca0b7779974db89ea3a224d75101ed | amount=5 | path=Save.Inventory.Enchant
+class=Enchant | name=Strong Pets | uid=7b8f6696e30a448b8fe5133d7344a51c | amount=177 | path=Save.Inventory.Enchant
+class=Enchant | name=Strong Pets | uid=8f32aab3362d46d5a94fc6a8a3f72d19 | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Strong Pets | uid=c8415a430499490685d344e42695062c | amount=28 | path=Save.Inventory.Enchant
+class=Enchant | name=Strong Pets | uid=cb37585861d54e06be26a3e7bfae347b | amount=41 | path=Save.Inventory.Enchant
+class=Enchant | name=Strong Pets | uid=ed711803a0334a16a5a1c2cdbd3b5df0 | amount=61 | path=Save.Inventory.Enchant
+class=Enchant | name=Strong Pets | uid=f2990a6a1a994dbda3ec9dd727c51b9a | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Tap Power | uid=265b3038f34841ceb4eb80ac323a037d | amount=6 | path=Save.Inventory.Enchant
+class=Enchant | name=Tap Power | uid=669e9dbfa3ee4b40bc08e8630e339362 | amount=100 | path=Save.Inventory.Enchant
+class=Enchant | name=Tap Power | uid=6a7c5adf83734a1381c6294edb2fa308 | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Tap Power | uid=6d1b964e9b70495c8b36bd2b59cd927e | amount=126 | path=Save.Inventory.Enchant
+class=Enchant | name=Tap Power | uid=7942fcad7af24e9595b02b115b6ad769 | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Tap Power | uid=7a23003f6d4b441e8e85548bcb42c31a | amount=78 | path=Save.Inventory.Enchant
+class=Enchant | name=Tap Power | uid=dbee5d2971ab47298e25c441524f4a4e | amount=4 | path=Save.Inventory.Enchant
+class=Enchant | name=Tap Power | uid=f1ef19b728a6495daa3fc740fba75e1e | amount=46 | path=Save.Inventory.Enchant
+class=Enchant | name=Tap Power | uid=f73d22acf4d84192ad236588bdb745ac | amount=219 | path=Save.Inventory.Enchant
+class=Enchant | name=Tap Teamwork | uid=12bacc8b4a59445dab2ee8f6120277ce | amount=12 | path=Save.Inventory.Enchant
+class=Enchant | name=Treasure Hunter | uid=038147d5444641f69b9a7792a2813c8c | amount=47 | path=Save.Inventory.Enchant
+class=Enchant | name=Treasure Hunter | uid=057c41169094409d816ba908ab5a1a83 | amount=24 | path=Save.Inventory.Enchant
+class=Enchant | name=Treasure Hunter | uid=1320b0e9ce2044a2bc52c011f5541767 | amount=4 | path=Save.Inventory.Enchant
+class=Enchant | name=Treasure Hunter | uid=2d9e46754df94ce4b26d93f52dc507f4 | amount=63 | path=Save.Inventory.Enchant
+class=Enchant | name=Treasure Hunter | uid=6398a7f081a84477aa51d779223e081e | amount=1 | path=Save.Inventory.Enchant
+class=Enchant | name=Treasure Hunter | uid=6848861de717480ba4a250a55b387f89 | amount=161 | path=Save.Inventory.Enchant
+class=Enchant | name=Treasure Hunter | uid=941c29031cf548809e2f4031448a0cd5 | amount=40 | path=Save.Inventory.Enchant
+class=Enchant | name=Treasure Hunter | uid=ac68a66ce2824767805a464b4cfbbe7e | amount=3 | path=Save.Inventory.Enchant
+class=Enchant | name=Walkspeed | uid=74622691fcc9419ba28e2f75221f4ed8 | amount=993 | path=Save.Inventory.Enchant
+class=Enchant | name=Walkspeed | uid=8474e88fc10643539c09055bac081475 | amount=227 | path=Save.Inventory.Enchant
+class=Enchant | name=Walkspeed | uid=9c47c55829ed4cf7bb0eb892ee5f25f8 | amount=507 | path=Save.Inventory.Enchant
+class=Enchant | name=Walkspeed | uid=9d78096fb67242ce843215869aa54df5 | amount=628 | path=Save.Inventory.Enchant
+class=Enchant | name=Walkspeed | uid=d36ac89960074b869525396bb4d961ab | amount=345 | path=Save.Inventory.Enchant
+class=Fruit | name=Apple | uid=2ba1c1e83d724912913bdfff4ca61bf9 | amount=565 | path=Save.Inventory.Fruit
+class=Fruit | name=Banana | uid=51e82ab84fa145378ac831b2e18f8324 | amount=758 | path=Save.Inventory.Fruit
+class=Fruit | name=Orange | uid=5165aed1e1d14fc787ccf43756556909 | amount=933 | path=Save.Inventory.Fruit
+class=Fruit | name=Pineapple | uid=f70c6c84203242dc8d9380926461d159 | amount=753 | path=Save.Inventory.Fruit
+class=Fruit | name=Rainbow | uid=c643ca972f2a4af4b53ad8f4e7e1da9f | amount=336 | path=Save.Inventory.Fruit
+class=Fruit | name=Watermelon | uid=d3b2ce37edda4df5911151c6565bc398 | amount=563 | path=Save.Inventory.Fruit
+class=Hoverboard | name=Original | uid=e6aedac79ee54e10874903e64ffbf6a7 | amount=1 | path=Save.Inventory.Hoverboard
+class=Lootbox | name=Locked Hype Egg | uid=a5c2fd72f51f46f2bb6478813da551ec | amount=1 | path=Save.Inventory.Lootbox
+class=Lootbox | name=Locked Hype Egg | uid=f4a12933975c4d8c9509821ae3b616fa | amount=1 | path=Save.Inventory.Lootbox
+class=Lootbox | name=Time Trial Gift | uid=fa79f89f0a1b4478ad5e0bb1e271f4a9 | amount=18 | path=Save.Inventory.Lootbox
+class=Misc | name=Arcade Token | uid=6c02d7066bbb436faf00246d8f09b229 | amount=1 | path=Save.Inventory.Misc
+class=Misc | name=Basic Coin Jar | uid=58e00e2654d840bea72dafc72fbbec09 | amount=233 | path=Save.Inventory.Misc
+class=Misc | name=Booth Slot Voucher | uid=8efd5afc1251422b91077cfa294e70e8 | amount=1 | path=Save.Inventory.Misc
+class=Misc | name=Breakable Sprinkler | uid=643755eec5eb45be81741ef71e2265c3 | amount=21 | path=Save.Inventory.Misc
+class=Misc | name=Charm Stone | uid=5ff56f5fa55a48d2afa0ec9d02c344db | amount=14 | path=Save.Inventory.Misc
+class=Misc | name=Clover V2 | uid=d5c9a50d71814e5680c3aea2f5bc3dbc | amount=8 | path=Save.Inventory.Misc
+class=Misc | name=Coins Flag | uid=222164df25ab400fab5c7aa86447a1fa | amount=356 | path=Save.Inventory.Misc
+class=Misc | name=Crystal Key Lower Half | uid=c694de35684542d9b69eb8e5204d062a | amount=68 | path=Save.Inventory.Misc
+class=Misc | name=Crystal Key Upper Half | uid=d5eeb848317d46f1bb88bb9d2baa4fb8 | amount=35 | path=Save.Inventory.Misc
+class=Misc | name=Crystal Key | uid=af6ef534f53f4b1888274abcf3e51b28 | amount=20 | path=Save.Inventory.Misc
+class=Misc | name=Daycare Slot Voucher | uid=40e5ca9623f8429eb1ea81f8cfd49520 | amount=2 | path=Save.Inventory.Misc
+class=Misc | name=Diamonds Flag | uid=8272904f095442098767387dfe938711 | amount=367 | path=Save.Inventory.Misc
+class=Misc | name=Doodle Pad | uid=a2dfe6e74e7644369be3cb9cf38df71f | amount=94 | path=Save.Inventory.Misc
+class=Misc | name=Doodle Token | uid=f6baa8af8e434dbab0fb408289ec0914 | amount=2 | path=Save.Inventory.Misc
+class=Misc | name=Enchant Bundle | uid=9c172cfc693342c2b644346b185ba432 | amount=8 | path=Save.Inventory.Misc
+class=Misc | name=Enchants Cape | uid=6c07c63f6da643f88a1d47fe2d7317ad | amount=1 | path=Save.Inventory.Misc
+class=Misc | name=Fantasy Key Lower Half | uid=e598005754bf4456813e27fa99df316f | amount=12 | path=Save.Inventory.Misc
+class=Misc | name=Fantasy Key Upper Half | uid=aceb65fbccd6478ba3bbe6b2cca71c93 | amount=3 | path=Save.Inventory.Misc
+class=Misc | name=Flag Bundle | uid=2c2a11296ecc418d8372e9af6dbff92b | amount=52 | path=Save.Inventory.Misc
+class=Misc | name=Fruit Bundle | uid=b7d599fbd1874ba9821fea5870ffc708 | amount=113 | path=Save.Inventory.Misc
+class=Misc | name=Giant Coin Jar | uid=d0e967c40e604765b491d32ebec934e0 | amount=142 | path=Save.Inventory.Misc
+class=Misc | name=Gift Bag | uid=6609bf47810341fca382f1aeed53d6bd | amount=1 | path=Save.Inventory.Misc
+class=Misc | name=Hasty Flag | uid=2e4e4f6743614e9aa2814a10b2ac28d3 | amount=273 | path=Save.Inventory.Misc
+class=Misc | name=Index Token | uid=d4c9c654e062432482478a855c57588f | amount=66 | path=Save.Inventory.Misc
+class=Misc | name=Insta Plant Capsule | uid=e3524bf4dd4049eead3edac6b7f713f4 | amount=52 | path=Save.Inventory.Misc
+class=Misc | name=Lucky Raid Boss Key Lower Half V2 | uid=4f2431747cbc4ddca3b50c381be743dc | amount=48 | path=Save.Inventory.Misc
+class=Misc | name=Lucky Raid Boss Key V2 | uid=ea9e7b44ec6843639cb9ad5ba2beb8da | amount=156 | path=Save.Inventory.Misc
+class=Misc | name=Lucky Raid Orb V2 | uid=857f90910ffa4671b46c5d60dc2dbed9 | amount=434 | path=Save.Inventory.Misc
+class=Misc | name=MVP Key Lower Half | uid=d68ab451d7714fe6bb3b746db95805e0 | amount=9 | path=Save.Inventory.Misc
+class=Misc | name=MVP Key Upper Half | uid=50fec2e2dc624b5ca992195504aa060c | amount=5 | path=Save.Inventory.Misc
+class=Misc | name=Magic Coin Jar | uid=9132ada37ddd4e2c9225c98ede8846fd | amount=29 | path=Save.Inventory.Misc
+class=Misc | name=Magnet Flag | uid=20825f57b7024310aac2f58ac3af50e3 | amount=324 | path=Save.Inventory.Misc
+class=Misc | name=Mini Lucky Block | uid=4184c9b8a9fd49058835a9a4c88dd787 | amount=17 | path=Save.Inventory.Misc
+class=Misc | name=Mini Pinata | uid=5f222c668b2240e6896126b2e219f078 | amount=12 | path=Save.Inventory.Misc
+class=Misc | name=Nametag | uid=b8d99f5d701642f6818bcfaa65e9fb07 | amount=19 | path=Save.Inventory.Misc
+class=Misc | name=Potion Bundle | uid=1dae5ae0033d4ec98b2d7d9b5da791a8 | amount=1 | path=Save.Inventory.Misc
+class=Misc | name=Quest Medal | uid=49f7aa0b22dd465683af56b585d6b5bb | amount=31 | path=Save.Inventory.Misc
+class=Misc | name=Rainbow Flag | uid=8eb50fbc9e1745058e6d7b1e82633d89 | amount=2 | path=Save.Inventory.Misc
+class=Misc | name=Secret Key Lower Half | uid=3a2bba4719324ba18fc262d7e0363559 | amount=10 | path=Save.Inventory.Misc
+class=Misc | name=Secret Key Upper Half | uid=2adf15e1637a43d3ab12cca128bca84f | amount=7 | path=Save.Inventory.Misc
+class=Misc | name=Secret Key | uid=d8c4c7f56b86482ebd31a12525d33fed | amount=4 | path=Save.Inventory.Misc
+class=Misc | name=Seed Bag | uid=9f86f75f39c0412d85eac2df3fa0f7a4 | amount=36 | path=Save.Inventory.Misc
+class=Misc | name=Shiny Flag | uid=8ccae4530fc645858bd111f20447a049 | amount=3 | path=Save.Inventory.Misc
+class=Misc | name=Slingshot | uid=6ae708bc59b1405e8036b50e662aa9b4 | amount=1 | path=Save.Inventory.Misc
+class=Misc | name=Spinny Wheel Ticket | uid=bef35d3def8a44d7937c2c22e1e0120f | amount=52 | path=Save.Inventory.Misc
+class=Misc | name=Squeaky Toy | uid=67251d1ab18d4da58c6fd914b1df2975 | amount=13 | path=Save.Inventory.Misc
+class=Misc | name=Strength Flag | uid=2790a9be68d442f080c65b79a1fcbe54 | amount=24 | path=Save.Inventory.Misc
+class=Misc | name=Supercomputer Radio | uid=918ab78b6db8466981566f490a14b8c6 | amount=1 | path=Save.Inventory.Misc
+class=Misc | name=TNT Crate | uid=966006b541dc48819d573577dbbbcceb | amount=116 | path=Save.Inventory.Misc
+class=Misc | name=TNT | uid=c6196eca9ab1475ea997836fa071a9ee | amount=555 | path=Save.Inventory.Misc
+class=Misc | name=Tech Key Lower Half | uid=2a76a329ba8b478cbb870aeae15bbb2d | amount=26 | path=Save.Inventory.Misc
+class=Misc | name=Tech Key Upper Half | uid=390160f603c04e0a9f4f08e6b6bffeb2 | amount=9 | path=Save.Inventory.Misc
+class=Misc | name=Tech Key | uid=f666e451e34542ee87d5bf65f2538412 | amount=38 | path=Save.Inventory.Misc
+class=Misc | name=Tech Spinny Wheel Ticket | uid=832899bf879b4cf7a554c4f747dce5e3 | amount=56 | path=Save.Inventory.Misc
+class=Misc | name=Toy Bundle | uid=f16e21a5dcef4814afab7ba8ac3749fd | amount=95 | path=Save.Inventory.Misc
+class=Misc | name=Treasure Hideout Key Lower Half | uid=8b629f6a2e2a4ecab518bc5854252113 | amount=1 | path=Save.Inventory.Misc
+class=Misc | name=Void Key Lower Half | uid=afd793dc48d1483dbe8f3fd62e5f20e6 | amount=13 | path=Save.Inventory.Misc
+class=Misc | name=Void Key Upper Half | uid=f992712202224bf0a66fbb46c8437324 | amount=6 | path=Save.Inventory.Misc
+class=Misc | name=Void Key | uid=20831f6a1fea450cb56880597a20170f | amount=2 | path=Save.Inventory.Misc
+class=Misc | name=Void Spinny Wheel Ticket | uid=5608ae3c664b4db7b2fabebdea076c8d | amount=5 | path=Save.Inventory.Misc
+class=Misc | name=Wooden Fishing Rod | uid=9ad6cf7b55dc47e289d08713ac0fa260 | amount=1 | path=Save.Inventory.Misc
+class=Pet | name=Beegle Dog | uid=9ad6e2cc9d6841d3bbfe30a32779d88d | amount=71 | path=Save.Inventory.Pet
+class=Pet | name=Blooming Axolotl | uid=19f6851fc8744fc4b5e4cf4fd8f3fb7c | amount=16 | path=Save.Inventory.Pet
+class=Pet | name=Blooming Axolotl | uid=7f49bc923fc1498eb4888f93adb174d2 | amount=6891 | path=Save.Inventory.Pet
+class=Pet | name=Blooming Axolotl | uid=8965494cbdc3463c913f7d1fa7ec04c5 | amount=508 | path=Save.Inventory.Pet
+class=Pet | name=Blooming Axolotl | uid=98ebf5ab566b4cd9be08d82aa3bba533 | amount=61 | path=Save.Inventory.Pet
+class=Pet | name=Blooming Axolotl | uid=b1329dc2ad914ce8b8e9d48046a2757e | amount=223785 | path=Save.Inventory.Pet
+class=Pet | name=Happy Cyclops | uid=d541093c9b484203bb4d93d991e21854 | amount=181 | path=Save.Inventory.Pet
+class=Pet | name=Honey Golem | uid=b3e5fa1450e54778952a1e3f656c53b7 | amount=5 | path=Save.Inventory.Pet
+class=Pet | name=Huge Irish Badger | uid=d4a0c135f85d42ada94b45d8b24507b3 | amount=1 | path=Save.Inventory.Pet
+class=Pet | name=Huge Leprechaun Fox | uid=1ccaba500ea54db08f1b02d2a2f8c472 | amount=1 | path=Save.Inventory.Pet
+class=Pet | name=Huge Leprechaun Fox | uid=5b99dc71a41349b3b97e04234269d616 | amount=1 | path=Save.Inventory.Pet
+class=Pet | name=Huge Leprechaun Fox | uid=73612c2ad3024419a98dc00ad990c29b | amount=1 | path=Save.Inventory.Pet
+class=Pet | name=Huge Leprechaun Fox | uid=9374c5b0e56c4e4eb4cb4b5fe0edd76e | amount=1 | path=Save.Inventory.Pet
+class=Pet | name=Huge Leprechaun Fox | uid=9bf263f33a704a02be7076c1feb10c55 | amount=1 | path=Save.Inventory.Pet
+class=Pet | name=Huge Leprechaun Fox | uid=d53966ccbbab4933ad6712b8c70c6c0e | amount=1 | path=Save.Inventory.Pet
+class=Pet | name=Leprechaun Kitsune | uid=5a2ced4060724a6ea1dd4b4f117129d0 | amount=225 | path=Save.Inventory.Pet
+class=Pet | name=Palace Pooka | uid=8294a9a43c924fe1be140aab152336fc | amount=1 | path=Save.Inventory.Pet
+class=Pet | name=Palace Pooka | uid=98ab54951de9428ebb4cfe26e9c6b1dc | amount=1 | path=Save.Inventory.Pet
+class=Pet | name=Petal Pixie | uid=1201a2f14e34435aa6b9e361d7e55428 | amount=29796 | path=Save.Inventory.Pet
+class=Pet | name=Petal Pixie | uid=2e6bd1fc6714442592300ee2ad015c55 | amount=263 | path=Save.Inventory.Pet
+class=Pet | name=Petal Pixie | uid=76e0e8eb599e4d32b81ae36c974051f4 | amount=969835 | path=Save.Inventory.Pet
+class=Pet | name=Petal Pixie | uid=e4fd7ffbf0884013ab25610592e70282 | amount=2424 | path=Save.Inventory.Pet
+class=Pet | name=Petal Pixie | uid=fc425e7ca24141d68f8b5ba710080fed | amount=70 | path=Save.Inventory.Pet
+class=Pet | name=Pixie Bee | uid=6ca766964d6c4f708284d4976dfa1318 | amount=1 | path=Save.Inventory.Pet
+class=Pet | name=Pixie Bee | uid=886c14bfefbd45baab2d91b7f5ada57a | amount=372 | path=Save.Inventory.Pet
+class=Pet | name=Rose Pooka | uid=8d9294c1b8334ca6928fd6fc1c72fe92 | amount=63 | path=Save.Inventory.Pet
+class=Pet | name=Rose Pooka | uid=c6cabb03d7004c84a0c55dca7f5e9157 | amount=2 | path=Save.Inventory.Pet
+class=Pet | name=Runebound Bobcat | uid=a88c9fe8f2a24fcc9808e76246faf4e8 | amount=27 | path=Save.Inventory.Pet
+class=Pet | name=Wisp Deer | uid=3cf4b8bb69424aa096fc74d5586be4e3 | amount=5 | path=Save.Inventory.Pet
+class=Pet | name=Wisp Deer | uid=71dcdff0784a4ac79aa1f7fe780e9fed | amount=7 | path=Save.Inventory.Pet
+class=Pet | name=Wisp Deer | uid=919e78e070124e61b0af4ce8106fb052 | amount=2766 | path=Save.Inventory.Pet
+class=Potion | name=Coins | uid=22037438cebf4e59b73bf66b0f4638d7 | amount=101 | path=Save.Inventory.Potion
+class=Potion | name=Coins | uid=33c82b5d7aee4d5e84d7a67f5297afed | amount=2 | path=Save.Inventory.Potion
+class=Potion | name=Coins | uid=3d5ef825ece04835ba8c959cf582cdd6 | amount=899 | path=Save.Inventory.Potion
+class=Potion | name=Coins | uid=62ae58f2882d43268959815b7b523a29 | amount=786 | path=Save.Inventory.Potion
+class=Potion | name=Coins | uid=8d49b3176def463e8657d18ad35b90b9 | amount=1361 | path=Save.Inventory.Potion
+class=Potion | name=Coins | uid=b9e0f02119784c83a59cacbc401aa572 | amount=305 | path=Save.Inventory.Potion
+class=Potion | name=Coins | uid=de7aca1df339483d9470580b35efae2b | amount=122 | path=Save.Inventory.Potion
+class=Potion | name=Damage | uid=03c9dcc73a3444b7a61d7fa350def89e | amount=611 | path=Save.Inventory.Potion
+class=Potion | name=Damage | uid=46ae8165a75a4ffc922e1c6cc4441c8a | amount=74 | path=Save.Inventory.Potion
+class=Potion | name=Damage | uid=8848a0e07bab48d0bf3d14012dc3f261 | amount=248 | path=Save.Inventory.Potion
+class=Potion | name=Damage | uid=974ca3e3f07a48278bda4537a1c7cd73 | amount=665 | path=Save.Inventory.Potion
+class=Potion | name=Damage | uid=df6b079ecf20423cb59d3223a191bf50 | amount=127 | path=Save.Inventory.Potion
+class=Potion | name=Damage | uid=e2363aec14114e42b9bf9a04bf30628b | amount=1027 | path=Save.Inventory.Potion
+class=Potion | name=Diamonds | uid=6a4e214d56434a39bd82415040e261bf | amount=78 | path=Save.Inventory.Potion
+class=Potion | name=Diamonds | uid=925afdfc544f45d785f2d98cc54611d9 | amount=125 | path=Save.Inventory.Potion
+class=Potion | name=Diamonds | uid=95a4202fee184614aa5b69e9ea2c304c | amount=2450 | path=Save.Inventory.Potion
+class=Potion | name=Diamonds | uid=a731140079ee46149078f0867c8afbfe | amount=2 | path=Save.Inventory.Potion
+class=Potion | name=Diamonds | uid=bded3c42d76e4ea9aadcbd536ab6a6b1 | amount=1715 | path=Save.Inventory.Potion
+class=Potion | name=Lucky | uid=1d191fab876a495e9869e10ffbcfede4 | amount=136 | path=Save.Inventory.Potion
+class=Potion | name=Lucky | uid=5b5f1623c5e94f7abdae22191bfcbb7a | amount=1089 | path=Save.Inventory.Potion
+class=Potion | name=Lucky | uid=782c27aa186649a08ef4b9ee46f38360 | amount=338 | path=Save.Inventory.Potion
+class=Potion | name=Lucky | uid=7c2f9a9222604cb290beaeb2a886b576 | amount=1658 | path=Save.Inventory.Potion
+class=Potion | name=Lucky | uid=b86f9b805ace4a8e90a710755922dfef | amount=1155 | path=Save.Inventory.Potion
+class=Potion | name=Lucky | uid=d75cbb42c1954edf9c70cf52f90d80af | amount=97 | path=Save.Inventory.Potion
+class=Potion | name=Lucky | uid=f4f679fcf45e44379c9146a56c08e9c0 | amount=1 | path=Save.Inventory.Potion
+class=Potion | name=Treasure Hunter | uid=1c919426ce0e47bfab0948915b068773 | amount=181 | path=Save.Inventory.Potion
+class=Potion | name=Treasure Hunter | uid=32d21f467024449e8cbc51041d6f96bb | amount=1 | path=Save.Inventory.Potion
+class=Potion | name=Treasure Hunter | uid=6c303d1ea42e4e9a9ef9815e051978df | amount=311 | path=Save.Inventory.Potion
+class=Potion | name=Treasure Hunter | uid=7d07ae66aad84ca5b049bb82043189e2 | amount=107 | path=Save.Inventory.Potion
+class=Potion | name=Treasure Hunter | uid=7edd37adb1a84724985bbaec1e0e07c6 | amount=1247 | path=Save.Inventory.Potion
+class=Potion | name=Treasure Hunter | uid=86e34977ec50452fbbc656da86e788c6 | amount=8 | path=Save.Inventory.Potion
+class=Potion | name=Treasure Hunter | uid=ed15abb385604aee87f53d0a91390403 | amount=2001 | path=Save.Inventory.Potion
+class=Potion | name=Treasure Hunter | uid=f58c70ba50574f05af1e468fa708792a | amount=1348 | path=Save.Inventory.Potion
+class=Potion | name=Walkspeed | uid=4ebb93cd2aa4472180f686d202bd5356 | amount=2 | path=Save.Inventory.Potion
+class=Potion | name=Walkspeed | uid=ac210d64ed4a4dab91110f89c06a687a | amount=25 | path=Save.Inventory.Potion
+class=Seed | name=Coin | uid=d2904a8e97fd48ee8d8742403f545131 | amount=195 | path=Save.Inventory.Seed
+class=Seed | name=Diamond | uid=93483caa74aa42fabab30614488aff34 | amount=7 | path=Save.Inventory.Seed
+class=Seed | name=Gift | uid=bf12de79dddc4523a69212c1d657c2e6 | amount=13 | path=Save.Inventory.Seed
+class=Seed | name=Potion | uid=6c5176032e67440d98ace5cccdd06350 | amount=120 | path=Save.Inventory.Seed
+class=Ultimate | name=Ground Pound | uid=2ea8e46c06cb4dec8b108f6b6bf01887 | amount=1 | path=Save.Inventory.Ultimate

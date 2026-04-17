@@ -1,0 +1,131 @@
+--Help: https://discord.gg/xGucmFjGVD
+local s_Players_0 = game:GetService("Players")
+local l_Library_0 = game:GetService("ReplicatedStorage"):WaitForChild("Library")
+local l_Types_0 = l_Library_0:WaitForChild("Types")
+local l_Items_0 = l_Library_0:WaitForChild("Items")
+local l_Modules_0 = l_Library_0:WaitForChild("Modules")
+local r_Asserts_0 = require(l_Library_0.Asserts)
+require(l_Library_0.Functions)
+require(l_Types_0.Trading)
+require(l_Items_0.AbstractItem)
+local r_Types_0 = require(l_Items_0.Types)
+local r_Event_0 = require(l_Modules_0.Event)
+local l_Client_0 = l_Library_0:WaitForChild("Client")
+require(l_Client_0.Network)
+local t_u_42 = {
+	["TradeCreated"] = r_Event_0.new(function(_, _, _, _) --[[ (unnamed) Line: 21 ]] end),
+	["TradeSetReady"] = r_Event_0.new(function(_, _, _) --[[ (unnamed) Line: 22 ]] end),
+	["TradeSetConfirmed"] = r_Event_0.new(function(_, _, _) --[[ (unnamed) Line: 23 ]] end),
+	["TradeSetItem"] = r_Event_0.new(function(_, _, _, _, _, _, _) --[[ (unnamed) Line: 24 ]] end),
+	["TradeMessage"] = r_Event_0.new(function(_, _, _) --[[ (unnamed) Line: 25 ]] end),
+	["TradeExecuting"] = r_Event_0.new(function(_) --[[ (unnamed) Line: 26 ]] end),
+	["TradeDestroyed"] = r_Event_0.new(function(_, _, _) --[[ (unnamed) Line: 27 ]] end),
+	["new"] = function(p1, p2, p3, p4, p5) --[[ Line: 49 ]] --[[ Name: new ]]
+		-- upvalues: [1](c) r_Asserts_0, [2](c) t_u_42
+		r_Asserts_0.Player(p2)
+		r_Asserts_0.Player(p3)
+		local t6 = {
+			["__index"] = t_u_42
+		}
+		return setmetatable({
+			["_destroyed"] = false,
+			["_destroyCallback"] = p5,
+			["_id"] = p1,
+			["_players"] = { p2, p3 },
+			["_executing"] = false,
+			["_ready"] = { false, false },
+			["_confirmed"] = { false, false },
+			["_items"] = { {}, {} },
+			["_counter"] = 1,
+			["_lastModified"] = p4
+		}, t6)
+	end,
+	["Created"] = function(p7) --[[ Line: 79 ]] --[[ Name: Created ]]
+		-- upvalues: [1](c) t_u_42
+		t_u_42.TradeCreated:FireAsync(p7._id, p7:Player1(1), p7:Player1(2), p7._lastModified)
+	end,
+	["PlayerIndex"] = function(p8, p9) --[[ Line: 84 ]] --[[ Name: PlayerIndex ]]
+		return table.find(p8._players, p9)
+	end,
+	["Index1"] = function(_, p10) --[[ Line: 88 ]] --[[ Name: Index1 ]]
+		return p10
+	end,
+	["Index2"] = function(_, p11) --[[ Line: 92 ]] --[[ Name: Index2 ]]
+		return 3 - p11
+	end,
+	["Player1"] = function(p12, p13) --[[ Line: 96 ]] --[[ Name: Player1 ]]
+		return p12._players[p13]
+	end,
+	["Player2"] = function(p14, p15) --[[ Line: 100 ]] --[[ Name: Player2 ]]
+		return p14._players[3 - p15]
+	end,
+	["SetReady"] = function(p16, p17, p18, p19) --[[ Line: 105 ]] --[[ Name: SetReady ]]
+		-- upvalues: [1](c) t_u_42
+		if not p16._destroyed then
+			p16._ready[p17] = p18
+			p16._readyTimer = p19
+			t_u_42.TradeSetReady:FireAsync(p16._id, p17, p18)
+		end
+	end,
+	["SetConfirmed"] = function(p20, p21, p22, p23) --[[ Line: 119 ]] --[[ Name: SetConfirmed ]]
+		-- upvalues: [1](c) t_u_42
+		if not p20._destroyed then
+			p20._confirmed[p21] = p22
+			p20._confirmedTimer = p23
+			t_u_42.TradeSetConfirmed:FireAsync(p20._id, p21, p22)
+		end
+	end,
+	["SetItem"] = function(p24, p25, p26, p27, p28, p29, p30) --[[ Line: 133 ]] --[[ Name: SetItem ]]
+		-- upvalues: [1](c) r_Types_0, [2](c) t_u_42
+		local v31 = p24._items[p25]
+		local v32 = v31[p26]
+		if not v32 then
+			v32 = {}
+			v31[p26] = v32
+		end
+		local v33
+		if p28 then
+			v33 = r_Types_0.From(p26, p28):Clone()
+			v33:SetUID(p27)
+			v33:Freeze()
+		else
+			v33 = nil
+		end
+		v32[p27] = v33
+		p24._counter = p29
+		p24._lastModified = p30
+		t_u_42.TradeSetItem:FireAsync(p24._id, p25, p26, p27, v33, p29, p30)
+	end,
+	["Message"] = function(p34, p35, p36) --[[ Line: 176 ]] --[[ Name: Message ]]
+		-- upvalues: [1](c) t_u_42
+		t_u_42.TradeMessage:FireAsync(p34._id, p35, p36)
+	end,
+	["Execute"] = function(p37) --[[ Line: 180 ]] --[[ Name: Execute ]]
+		-- upvalues: [1](c) t_u_42
+		if p37._destroyed then
+			return
+		elseif not p37._executing then
+			p37._executing = true
+			t_u_42.TradeExecuting:FireAsync(p37._id)
+		end
+	end,
+	["IsEveryoneReady"] = function(p38) --[[ Line: 192 ]] --[[ Name: IsEveryoneReady ]]
+		for _, v39 in ipairs(p38._ready) do
+			if not v39 then
+				return false
+			end
+		end
+		return true
+	end,
+	["Destroy"] = function(p40, p41) --[[ Line: 201 ]] --[[ Name: Destroy ]]
+		-- upvalues: [1](c) t_u_42, [2](c) s_Players_0
+		if p40._destroyed then
+			return false
+		end
+		p40._destroyed = true
+		t_u_42.TradeDestroyed:FireAsync(p40._id, p41, s_Players_0.LocalPlayer == p40:Player1(1) and p40:Player1(2) or p40:Player1(1))
+		p40._destroyCallback()
+		return true
+	end
+}
+return t_u_42
