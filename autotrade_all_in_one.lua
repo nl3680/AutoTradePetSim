@@ -159,7 +159,8 @@ end
 
 local DEFAULT_CONFIG = {
     Enabled = true,
-    Debug = true,
+    Debug = false,
+    StatusLogs = true,
 
     LoopInterval = 0.25,
     BetweenSetItemDelay = 0.12,
@@ -181,7 +182,7 @@ local DEFAULT_CONFIG = {
     KeepConfirmSynced = true,
     UseDirectReadyRemoteFallback = true,
     UseDirectConfirmRemoteFallback = false,
-    DebugTradeStateAtConfirm = true,
+    DebugTradeStateAtConfirm = false,
     ConfirmWithoutOtherReadyDetection = true,
 
     RejectIfItemListEmpty = true,
@@ -286,6 +287,12 @@ local Save = requireModule(ClientFolder:WaitForChild("Save"), "Save")
 
 local function log(message)
     if CONFIG.Debug then
+        print("[AutoTrade] " .. tostring(message))
+    end
+end
+
+local function statusLog(message)
+    if CONFIG.StatusLogs ~= false then
         print("[AutoTrade] " .. tostring(message))
     end
 end
@@ -1717,7 +1724,7 @@ function Controller.Stop(reason)
     if rawget(globalEnv, GLOBAL_KEY) == Controller then
         globalEnv[GLOBAL_KEY] = nil
     end
-    log("Controller stopped. reason=" .. tostring(Controller.StopReason))
+    statusLog("Controller stopped. reason=" .. tostring(Controller.StopReason))
 end
 
 function Controller.BuildTradePlan()
@@ -1734,7 +1741,7 @@ function Controller.ResetProcessedPlayers()
 end
 
 task.spawn(function()
-    log("Controller started. Version " .. Controller.Version .. " session=" .. tostring(Controller.SessionId) .. " config=" .. tostring(Controller.ConfigSource))
+    statusLog("Controller loaded. version=" .. Controller.Version .. " session=" .. tostring(Controller.SessionId) .. " config=" .. tostring(Controller.ConfigSource))
 
     while shouldRun() and CONFIG.Enabled do
         local okLoop, loopError = pcall(function()
@@ -1758,7 +1765,7 @@ task.spawn(function()
                 if requester then
                     local okAccept, reason = acceptIncomingRequest(requester)
                     if okAccept then
-                        log("Trade with " .. requester.Name .. " processed.")
+                        statusLog("Trade processed for " .. requester.Name)
                     else
                         log("Trade request from " .. requester.Name .. " ended: " .. tostring(reason))
                     end
@@ -1774,7 +1781,7 @@ task.spawn(function()
         task.wait(CONFIG.LoopInterval)
     end
 
-    log("Main loop exited.")
+    statusLog("Controller loop exited.")
 end)
 
 return Controller
